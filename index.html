@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal - Tela de login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Login</h1>
+    <button id="open-modal">Entrar</button>
+    <div id="fade" class="hider"></div>
+    <div id="modal" class="hider">
+        <div class="modal-header">
+            <h1>Bem vindo</h1>
+            <button id="close-modal">Fechar</button>
+        </div>
+        <div class="modal-body">
+            <label for="user">Usuário: </label>
+            <input type="text" id="user">
+            <label for="pswd">Senha: </label>
+            <input type="password" name="" id="pswd">
+            <button type="submit" id="btnEntrar">Entrar</button>
+        </div>
+    </div>
+</body>
+</html>
